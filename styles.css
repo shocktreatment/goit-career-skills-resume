@@ -1,0 +1,280 @@
+h3 {
+    background-color: #cd754cb1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    vertical-align: top;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Content */
+.content {
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+.summary {
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.summary-pre-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.summary-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.summary-post-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+/* Projects-Experience */
+.projects-experience {
+    margin-bottom: 50px;
+    /* border: 1px solid #000; */
+}
+.projects-experience-list {
+    /* padding: 0; */
+    margin-top: 15px;
+}
+.projects-experience-item-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects-experience-item-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #595959b0;
+    margin: 0;
+}
+.projects-experience-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.projects-experience-link:hover,
+.projects-experience-link:focus {
+    cursor: pointer;
+    color: #cd754c;
+}
+.projects-experience-instrument{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.exp-bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.git {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.git img {
+    margin-bottom: 0;
+}
+.git-link:hover,
+.git-link:focus {
+    cursor: pointer;
+}
+/* Work-Experience */
+.work-experience {
+    margin-bottom: 50px;
+}
+.work-experience-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.work-experience-period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.work-experience-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 10px;
+}
+/* Education */
+.education {
+    margin-bottom: 100px;
+}
+.education-period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 5px;
+}
+.education-university {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #cd754c;
+    margin-bottom: 10px;
+}
+.education-menegment {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.education-menegment span {
+    color: #A8A8A8;
+    font-weight: 400;
+    font-size: 12px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* SideBar */
+.sidebar{
+    background-color: #eae6e6;
+    padding-top: 30px;
+    width: 350px;
+}
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+.contacts, .hard-skills, .soft-skills, .languages {
+    margin-bottom: 50px;
+}
+
+/* Contacts */ 
+.contacts-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+    margin-right: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.contacts-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000000;
+}
+.contacts-item a {
+    color: #000;
+    text-decoration: none;
+}
+.contacts-item a:hover {
+    cursor: pointer;
+    color: #cd754c;
+}
+
+/* Hard Skills */
+.hard-skills-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    /* margin-left: 17px; */
+    margin-left: 45px;
+}
+.hard-skills-item {
+    color: #cd754c;
+}
+.hard-skills-item>p{
+    color: #000000;
+    margin: 0;
+}
+/* Soft Skills */
+.soft-skills-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    /* margin-left: 17px; */
+    margin-left: 45px;
+}
+.soft-skills-item {
+    color: #cd754c;
+}
+.soft-skills-item>p{
+    color: #000000;
+    margin: 0;
+}
+/* Languages */
+.languages-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    /* margin-left: 17px; */
+    margin-left: 45px;
+}
+.languages-item {
+    color: #cd754c;
+}
+.languages-item>p{
+    color: #000000;
+    margin: 0;
+}

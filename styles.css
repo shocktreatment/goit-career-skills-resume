@@ -1,280 +1,327 @@
 h3 {
-    background-color: #cd754cb1;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 10px;
-    padding-left: 10px;
+  background-color: #cd754cb1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
 img {
-    vertical-align: top;
+  vertical-align: top;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-
 .main {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
 }
 /* Content */
 .content {
-    background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 100px 90px;
 }
 .summary {
-    margin-bottom: 50px;
-    margin-left: 10px;
+  margin-bottom: 50px;
+  margin-left: 10px;
 }
 .summary-pre-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
 }
 .summary-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-    color: #000000;
-    margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
 }
 .summary-post-title {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    width: 400px;
+  font-style: normal;
+  font-weight: 00;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 630px;
 }
 /* Projects-Experience */
 .projects-experience {
-    margin-bottom: 50px;
-    /* border: 1px solid #000; */
+  margin-bottom: 50px;
+  /* border: 1px solid #000; */
 }
 .projects-experience-list {
-    /* padding: 0; */
-    margin-top: 15px;
+  /* padding: 0; */
+  margin-top: 15px;
 }
 .projects-experience-item-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
 }
 .projects-experience-item-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    color: #595959b0;
-    margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #595959b0;
+  margin: 0;
+  /* width: 500px; */
 }
 .projects-experience-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-right: 10px;
 }
 .projects-experience-link:hover,
 .projects-experience-link:focus {
-    cursor: pointer;
-    color: #cd754c;
+  cursor: pointer;
+  color: #cd754c;
 }
-.projects-experience-instrument{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+.projects-experience-instrument {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 .exp-bracket {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
 .git {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  color: #595959;
+  font-size: small;
 }
 .git img {
-    margin-bottom: 0;
+  margin-bottom: 0;
+}
+.git-link {
+  display: flex;
+  align-items: center;
 }
 .git-link:hover,
 .git-link:focus {
-    cursor: pointer;
+  cursor: pointer;
+}
+.git-img {
+  margin-left: 1px;
 }
 /* Work-Experience */
 .work-experience {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .work-experience-position {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 10px;
-    margin-left: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 .work-experience-period {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 10px;
-    margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  /* margin: 0; */
 }
 .work-experience-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 24px;
+  color: #595959;
+  margin: 0px 0px 15px 10px;
+  line-height: 1.4;
 }
 /* Education */
 .education {
-    margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .education-period {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 5px;
 }
 .education-university {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #cd754c;
-    margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #cd754c;
+  margin-bottom: 10px;
 }
 .education-menegment {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    margin-top: 0px;
-    margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .education-menegment span {
-    color: #A8A8A8;
-    font-weight: 400;
-    font-size: 12px;
+  color: #a8a8a8;
+  font-weight: 400;
+  font-size: 12px;
 }
 .box {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 /* SideBar */
-.sidebar{
-    background-color: #eae6e6;
-    padding-top: 30px;
-    width: 350px;
+.sidebar {
+  background-color: #eae6e6;
+  padding-top: 30px;
+  width: 350px;
 }
 .photo {
-    width: 370px;
-    margin-bottom: 50px;
+  width: 370px;
+  margin-bottom: 30px;
 }
-.contacts, .hard-skills, .soft-skills, .languages {
-    margin-bottom: 50px;
+.contacts,
+.hard-skills,
+.soft-skills,
+.languages {
+  margin-bottom: 30px;
 }
 
-/* Contacts */ 
+/* Contacts */
 .contacts-list {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    opacity: 0.5;
-    margin-right: 10px;
-    text-decoration: none;
-    list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.5;
+  margin-right: 10px;
+  /* text-decoration: none; */
+  list-style: none;
 }
 .contacts-item {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #000000;
 }
 .contacts-item a {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  /* text-decoration: none; */
 }
 .contacts-item a:hover {
-    cursor: pointer;
-    color: #cd754c;
+  cursor: pointer;
+  color: #cd754c;
+}
+.link {
+  text-decoration: none;
+  color: red;
 }
 
 /* Hard Skills */
 .hard-skills-list {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0;
-    /* margin-left: 17px; */
-    margin-left: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  /* margin-left: 17px; */
+  margin-left: 45px;
 }
 .hard-skills-item {
-    color: #cd754c;
+  color: #cd754c;
 }
-.hard-skills-item>p{
-    color: #000000;
-    margin: 0;
+.hard-skills-item > p {
+  color: #000000;
+  margin: 0;
 }
 /* Soft Skills */
 .soft-skills-list {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0;
-    /* margin-left: 17px; */
-    margin-left: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  /* margin-left: 17px; */
+  margin-left: 45px;
 }
 .soft-skills-item {
-    color: #cd754c;
+  color: #cd754c;
 }
-.soft-skills-item>p{
-    color: #000000;
-    margin: 0;
+.soft-skills-item > p {
+  color: #000000;
+  margin: 0;
 }
 /* Languages */
 .languages-list {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 0;
-    /* margin-left: 17px; */
-    margin-left: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  /* margin-left: 17px; */
+  margin-left: 45px;
 }
 .languages-item {
-    color: #cd754c;
+  color: #cd754c;
 }
-.languages-item>p{
-    color: #000000;
-    margin: 0;
+.languages-item > p {
+  color: #000000;
+  margin: 0;
+}
+
+.work-list {
+  margin: 0;
+}
+.work-item {
+  margin: 3px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.item-text {
+  color: #595959;
+  margin: 0;
+}
+.music-list {
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 11px;
+    padding: 0 10px;
+}
+.music-program p {
+    color: #cd754c;
+    margin: 3px;
+}
+.music-text {
+    font-size: 14px;
+    color: #595959;
+    margin: 18px 0 0 15px;
 }
